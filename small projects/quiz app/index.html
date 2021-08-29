@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module" defer></script>
+</head>
+<body>
+
+<div class="startButton"><button>Start Quiz</button></div>
+
+<div class="infoBox">
+    <div class="infoTitle">
+        <span>Rules</span>
+    </div>
+    <div class="infoList">
+        <div class="info">1. You will be given <span>20 sec</span> to answer each question.</div>
+        <div class="info">2. There will be total 10 question.</div>
+        <div class="info">3. Relax and attempt them all, there will be <span>NO NEGATIVE MARKING</span>.</div>
+    </div>
+    <div class="infoButtons">
+        <button class="quit">Exit</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+<div class="quizBox">
+    <header>
+        <div class="quizTitle">Computer Quiz</div>
+    </header>
+
+    <section>
+        <div class="questionTitle">
+            <span></span>
+        </div>
+        <div class="optionList">
+            <div class="option">
+                <span></span>
+                <div class="icon tick"></div>
+            </div>
+            <div class="option">
+                <span></span>
+                <div class="icon cross"></div>
+            </div>
+            <div class="option">
+                <span></span>
+            </div>
+            <div class="option">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="totalQues">
+            <span><p id="counter">1</p>of<p>10</p>Questions</span>
+        </div>
+        <div class="nextBtn">Next</div>
+    </footer>
+</div>
+
+</body>
+</html>
